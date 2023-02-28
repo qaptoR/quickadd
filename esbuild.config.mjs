@@ -62,8 +62,10 @@ esbuild
 							assets: {
 								from: ["./styles.css"],
 								to: [
-									// Path to dev's Obsidian CSS snippets folder, for hot-reload of CSS
-									"/mnt/c/Users/chhou/Documents/dev/.obsidian/snippets/quickadd.css",
+									// // Path to dev's Obsidian CSS snippets folder, for hot-reload of CSS
+                                    // "H:\\Godaingneachd\\Campus\\.obsidian\\snippets"
+									// // "/mnt/c/Users/chhou/Documents/dev/.obsidian/snippets/quickadd.css",
+                                    "./styles.css"
 								],
 							},
 						}),
